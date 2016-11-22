@@ -1,0 +1,19 @@
+{
+  "name": "classy-radio",
+  "version": "0.1.0",
+  "authors": [
+    "Vital Kudzelka <vital.kudzelka@gmail.com>"
+  ],
+  "description": "A classy radio",
+  "main": "radio.less",
+  "keywords": [
+    "css",
+    "oocss",
+    "radio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "classy-defaults": "~0.2.2"
+  }
+}
+

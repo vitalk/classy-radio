@@ -1,0 +1,56 @@
+// A simple radio theme.
+
+
+.radio_theme_simple {
+
+  // Create a new positional context.
+  position: relative;
+
+  // Apply `inline-block` to ensure the .radio__box respects vertical
+  // alignment.
+  display: inline-block;
+
+  // Space reserved for radio itself with a little gap between radio
+  // description.
+  padding-left: (1em + .5em);
+
+  // Ensure the content of .radio__box is properly aligned vertically.
+  line-height: 1;
+
+
+  .radio__box:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+
+    content: ' ';
+    vertical-align: middle;
+    text-align: center;
+
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.5);
+  }
+
+
+  .radio__input {
+    // Completely hide original control.
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+
+    // Put the input behind the label so it doesn’t overlay text.
+    z-index: -1;
+  }
+
+
+  &.radio_checked {
+
+    .radio__box:after {
+      content: '\25cf';
+    }
+  }
+}
