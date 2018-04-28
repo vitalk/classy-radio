@@ -1,0 +1,24 @@
+{
+  "name": "classy-radio",
+  "version": "0.2.0",
+  "description": "A classy radio",
+  "main": "radio.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalk/classy-radio.git"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "radio"
+  ],
+  "author": "Vital Kudzelka <vital.kudzelka@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitalk/classy-radio/issues"
+  },
+  "homepage": "https://github.com/vitalk/classy-radio#readme"
+}

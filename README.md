@@ -4,10 +4,10 @@ A classy radio.
 
 ## Installation
 
-The recommended installation method is a [bower](http://bower.io).
+The recommended installation method is a [npm](https://www.npmjs.com/).
 
 ```shell
-bower install --save classy-radio
+npm install --save-dev classy-radio
 ```
 
 ## Usage
